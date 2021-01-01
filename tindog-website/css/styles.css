@@ -1,0 +1,164 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+
+/*************************** Title-section *************************************/
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Headings */
+.big-heading{
+  font-size: 3rem;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navbar */
+.navbar{
+  padding-bottom: 5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+
+/* Download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-img */
+.title-img{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+@media(max-width: 1028px){
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+/* Features Section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-p{
+  padding: 0 15%;
+}
+
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 90px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* Press section */
+#press{
+  background-color: #ef8172;
+  padding: 1% 10% 3% 10%;
+}
+
+.press-img{
+  padding: 2%;
+  width: 250px;
+}
+
+/* Pricing section */
+#pricing{
+  padding: 100px;
+}
+
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* cta section */
+#cta{
+  background-color: #ef8172;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+
+/* Footer section */
+#footer{
+  padding: 7% 15%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
